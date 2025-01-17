@@ -1,0 +1,14 @@
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/bin/Debug/net8.0/Order.ApplicationCore.deps.json
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/bin/Debug/net8.0/Order.ApplicationCore.runtimeconfig.json
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/bin/Debug/net8.0/Order.ApplicationCore.dll
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/bin/Debug/net8.0/Order.ApplicationCore.pdb
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.csproj.AssemblyReference.cache
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.AssemblyInfoInputs.cache
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.AssemblyInfo.cs
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.dll
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/refint/Order.ApplicationCore.dll
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.pdb
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/Order.ApplicationCore.genruntimeconfig.cache
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.ApplicationCore/obj/Debug/net8.0/ref/Order.ApplicationCore.dll
