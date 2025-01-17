@@ -15,3 +15,4 @@
 /Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.Infrastructure/obj/Debug/net8.0/Order.Infrastructure.pdb
 /Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.Infrastructure/obj/Debug/net8.0/Order.Infrastructure.genruntimeconfig.cache
 /Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.Infrastructure/obj/Debug/net8.0/ref/Order.Infrastructure.dll
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.Infrastructure/obj/Debug/net8.0/Order.Infrastructure.sourcelink.json

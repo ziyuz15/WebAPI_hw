@@ -20,14 +20,14 @@ namespace Order.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllOrders()
         {
-            return Ok(_orderServiceAsync.GetAllOrdersAsync())
+            return Ok(_orderServiceAsync.GetAllOrdersAsync());
         }
         
         [HttpGet]
         [Route("{id}")]
         public async Task<IActionResult> GetOrderByCustomerId(int id)
         {
-            var result = await _orderServiceAsync.GetOrderByIdAsync(id);
+            var result = await _orderServiceAsync.GetOrdersByCustomerIdAsync(id);
             if (result != null)
             {
                 return Ok(result);
@@ -50,25 +50,25 @@ namespace Order.API.Controllers
         
        
         
-        [HttpPost]
-        public async Task<IActionResult> SaveNewOrder(OrderRequestModel model)
+        [HttpDelete]
+        public async Task<IActionResult> DeleteOrder(int id)
         {
-            var result = await _orderServiceAsync.SaveNewOrderAsync(model);
+            var result = await _orderServiceAsync.DeleteOrderAsync(id);
             if (result > 0)
             {
-                return Ok("Product has been added successfully");
+                return Ok("Product has been deleted successfully");
             }
 
             return BadRequest(result);
         }
         
-        [HttpPost]
-        public async Task<IActionResult> SaveNewOrder(OrderRequestModel model)
+        [HttpPut]
+        public async Task<IActionResult> UpdateOrder(int id, OrderRequestModel model)
         {
-            var result = await _orderServiceAsync.SaveNewOrderAsync(model);
+            var result = await _orderServiceAsync.UpdateOrderAsync(id, model);
             if (result > 0)
             {
-                return Ok("Product has been added successfully");
+                return Ok("Product has been updated successfully");
             }
 
             return BadRequest(result);

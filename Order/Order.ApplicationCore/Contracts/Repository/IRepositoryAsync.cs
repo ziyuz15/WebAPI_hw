@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using Order.ApplicationCore.Entities;
 
 namespace Order.ApplicationCore.Contracts.Repository;
 
@@ -9,4 +10,5 @@ public interface IRepositoryAsync<T> where T:class
     Task<int> DeleteAsync(int id);
     Task<T> GetByIdAsync(int id);
     Task<IEnumerable<T>> GetAllAsync();
+    Task<IEnumerable<T>> GetByCustomerIdAsync(int customerId);
 }

@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using AutoMapper;
 using Order.ApplicationCore.Contracts.Repository;
 using Order.ApplicationCore.Contracts.Service;
@@ -53,6 +54,13 @@ public class OrderServiceAsync:IOrderServiceAsync
     public async Task<IEnumerable<OrderResponseModel>> GetAllOrdersAsync()
     {
         var collection = await _orderRepositoryAsync.GetAllAsync();
+        List<OrderResponseModel> orders = _mapper.Map<List<OrderResponseModel>>(collection);
+        return orders;
+    }
+
+    public async Task<IEnumerable<OrderResponseModel>> GetOrdersByCustomerIdAsync(int customerId)
+    {
+        var collection = await _orderRepositoryAsync.GetByCustomerIdAsync(customerId);
         List<OrderResponseModel> orders = _mapper.Map<List<OrderResponseModel>>(collection);
         return orders;
     }

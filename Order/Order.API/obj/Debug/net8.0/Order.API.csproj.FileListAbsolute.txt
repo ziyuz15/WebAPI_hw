@@ -286,3 +286,5 @@
 /Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.API/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
 /Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.API/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.API/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.API/bin/Debug/net8.0/AutoMapper.dll
+/Users/ziyuzhao/Desktop/ANTRA ICC/lecture contents/1_15_async/WebAPI_hw/Order/Order.API/obj/Debug/net8.0/Order.API.sourcelink.json
