@@ -7,6 +7,7 @@ public class OrderDetails
 {
     public int Id { get; set; }
     public int ProductId { get; set; }
+    
     [Required]
     [Column(TypeName="varchar(50)")]
     public string ProductName { get; set; }
@@ -14,5 +15,7 @@ public class OrderDetails
     public decimal Price { get; set; }
     public decimal Discount { get; set; }
     //FK
+    // public int OrdersId { get; set; }
+    // [ForeignKey(nameof(OrdersId))]
     public Orders Orders { get; set; }
 }

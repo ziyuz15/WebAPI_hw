@@ -32,7 +32,8 @@ public class OrderServiceAsync:IOrderServiceAsync
             Orders item = _mapper.Map<Orders>(model);
             return _orderRepositoryAsync.UpdateAsync(item);
         }
-        return Task.Run(() => { return 0; });
+        // return Task.Run(() => { return 0; });
+        return Task.FromResult(0);
     }
 
     public Task<int> DeleteOrderAsync(int id)
@@ -47,7 +48,6 @@ public class OrderServiceAsync:IOrderServiceAsync
         {
             return _mapper.Map<OrderResponseModel>(item);
         }
-
         return null;
     }
 

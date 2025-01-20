@@ -20,14 +20,14 @@ namespace Order.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllOrders()
         {
-            return Ok(_orderServiceAsync.GetAllOrdersAsync());
+            return Ok(await _orderServiceAsync.GetAllOrdersAsync());
         }
         
         [HttpGet]
-        [Route("{id}")]
-        public async Task<IActionResult> GetOrderByCustomerId(int id)
+        [Route("{customerId}")]
+        public async Task<IActionResult> GetOrderByCustomerId(int customerId)
         {
-            var result = await _orderServiceAsync.GetOrdersByCustomerIdAsync(id);
+            var result = await _orderServiceAsync.GetOrdersByCustomerIdAsync(customerId);
             if (result != null)
             {
                 return Ok(result);

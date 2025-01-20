@@ -29,6 +29,6 @@ public class Orders
     [Column(TypeName="varchar(50)")]
     public string OrderStatus { get; set; }
 
-    public ICollection<OrderDetails> OrderDrtails { get; set; }
+    public ICollection<OrderDetails> OrderDetails { get; set; }
     
 }

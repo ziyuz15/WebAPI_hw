@@ -47,9 +47,5 @@ public class BaseRepositoryAsync<T>:IRepositoryAsync<T>where T:class
         var result = await _dbContext.Set<T>().ToListAsync();
         return result;
     }
-
-    public async Task<IEnumerable<T>> GetByCustomerIdAsync(int customerId)
-    {
-        return await _dbContext.Set<T>().Where(o => EF.Property<int>(o, "CustomerId") == customerId).ToListAsync();
-    }
+    
 }
